@@ -11,9 +11,9 @@ contract StarNotary is ERC721 {
         string name;
     }
 
-    string public name = "Star Token";
+    string public constant name = "Star Token";
 
-    string public symbol = "STO";
+    string public constant symbol = "STO";
 
     constructor() public ERC721() {}
 
